@@ -1,0 +1,30 @@
+{
+  "name": "fancy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.md": "prettier --write",
+    "*.{ts,tsx,js,vue,less}": "prettier --write",
+    "*.{ts,tsx,js,vue}": "eslint --fix",
+    "*.{vue,css,less}": "stylelint --fix"
+  },
+  "packageManager": "pnpm",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.0",
+    "stylelint": "^13.13.1"
+  },
+  "author": "luoliqiang",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0"
+  }
+}
