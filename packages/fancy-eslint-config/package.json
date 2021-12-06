@@ -1,6 +1,6 @@
 {
-  "name": "@fancy/eslint-configdd",
-  "version": "1.0.2",
+  "name": "@fancy/eslint-config",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "publishConfig": {
