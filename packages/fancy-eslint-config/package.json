@@ -7,7 +7,10 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luoliqiang/fancy/tree/master/packages/fancy-eslint-config"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

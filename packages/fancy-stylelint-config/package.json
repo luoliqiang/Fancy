@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luoliqiang/fancy/tree/master/packages/fancy-stylelint-config"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
