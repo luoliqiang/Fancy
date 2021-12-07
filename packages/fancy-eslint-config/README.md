@@ -1,21 +1,23 @@
 # Eslint Config
 
-## Install 
+## Install
 
 #### NPM
 
 ```shell
-npm i @fancy/stylelint-config -D
+npm i @fancy-view/eslint-config -D
 ```
+
 #### YARN
 
 ```shell
-yarn add @fancy/stylelint-config --dev
+yarn add @fancy-view/eslint-config --dev
 ```
 
 ## Usage
+
 ```json
 {
-  "extends": ["@fancy/stylelint-config"]
+  "extends": ["@fancy-view/eslint-config"]
 }
 ```
