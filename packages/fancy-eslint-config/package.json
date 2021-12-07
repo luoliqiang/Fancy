@@ -1,5 +1,5 @@
 {
-  "name": "@fancy/eslint-config",
+  "name": "fancy-eslint-config",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
